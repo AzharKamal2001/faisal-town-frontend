@@ -9,7 +9,7 @@ export default function Hero() {
 
   // WhatsApp handler function for buttons
   const handleWhatsAppClick = () => {
-    const phoneNumber = '923481264493'; // Without + or spaces
+    const phoneNumber = '923390190109'; // Without + or spaces
     const message = 'Hello, I am interested in Faisal Town Phase 2.'; // Optional pre-filled message
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
@@ -28,7 +28,7 @@ export default function Hero() {
     e.preventDefault();
     
     // Create WhatsApp message with form data
-    const phoneNumber = '923481264493';
+    const phoneNumber = '923390190109';
     const whatsappMessage = `
 Hello, I am interested in Faisal Town Phase 2.
 
@@ -68,7 +68,7 @@ Message: ${formData.message}
             className="bg-white text-[#619cdd] px-8 py-3 rounded-full font-semibold hover:bg-gray-100/20 hover:text-white transition"
             onClick={handleWhatsAppClick}
           >
-            +92 348 1264 4493
+            +92 339 0190 109
           </button>
           <button 
             className="bg-green-700 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-100/20 hover:text-white transition"

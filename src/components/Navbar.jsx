@@ -7,7 +7,7 @@ export default function Navbar() {
 
   // WhatsApp handler function
   const handleWhatsAppClick = () => {
-    const phoneNumber = '923481264493'; // Without + or spaces
+    const phoneNumber = '923390190109'; // Without + or spaces
     const message = 'Hello, I am interested in Faisal Town Phase 2.'; // Optional pre-filled message
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');

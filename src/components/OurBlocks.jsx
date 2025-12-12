@@ -54,7 +54,7 @@ export default function OurBlocks() {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">
             Overseas Enclave Phase 2
           </h2>
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 max-w-5xl mx-auto">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 max-w-7xl mx-auto">
             <img
               src={overseasEnclaveImage}
               alt="Overseas Enclave Phase 2 Payment Plan"

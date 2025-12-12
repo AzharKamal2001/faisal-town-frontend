@@ -45,7 +45,7 @@ export default function ContactFormSection() {
 
             {/* Phone Number */}
             <div className=" bg-opacity-10 backdrop-blur-sm px-8 py-4 rounded-full">
-              <p className="text-2xl font-bold">+92 314 5525 628</p>
+              <p className="text-2xl font-bold">+92 316 5200 360</p>
             </div>
 
             {/* Email */}

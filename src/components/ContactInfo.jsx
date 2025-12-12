@@ -9,7 +9,7 @@ export default function ContactInfo() {
 
   // Gmail handler function
   const handleGmailClick = () => {
-    const email = 'azharkamal552@gmail.com';
+    const email = 'jaweriazameer1@gmail.com';
     const subject = 'Inquiry about Faisal Town Phase 2';
     const body = 'Hello, I am interested in Faisal Town Phase 2.';
     
@@ -19,7 +19,7 @@ export default function ContactInfo() {
 
   // WhatsApp handler function
   const handleWhatsAppClick = () => {
-    const phoneNumber = '923481264493';
+    const phoneNumber = '923390190109';
     const message = 'Hello, I am interested in Faisal Town Phase 2.';
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
@@ -37,7 +37,7 @@ export default function ContactInfo() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    const phoneNumber = '923481264493';
+    const phoneNumber = '923390190109';
     const whatsappMessage = `Hello, I am interested in Faisal Town Phase 2.
 
 Name: ${formData.name}
@@ -68,7 +68,7 @@ Message: ${formData.message}`;
               {/* Phone Number */}
               <div className="flex justify-center md:justify-start mb-6">
                 <div className="bg-gray-100 text-gray-900 px-8 py-4 rounded-full text-xl font-semibold">
-                  +92 348 1264 4493
+                  +92 316 5200 360
                 </div>
               </div>
 
@@ -89,7 +89,7 @@ Message: ${formData.message}`;
                   onClick={handleGmailClick}
                   className="text-black text-lg underline hover:text-gray-600 transition bg-transparent border-none cursor-pointer"
                 >
-                  azharkamal552@gmail.com
+                  ContactSales@gmail.com
                 </button>
               </div>
             </div>
